@@ -1,0 +1,46 @@
+/*colours */
+.color-w {
+    color: #fff;
+} 
+.bg-y {
+    background-color: #f4bc51;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    color: #fff;
+    font-size: 64px;
+    margin: 20px 0 10px;
+}
+h2 {
+    font-size: 48px;
+    margin: 20px 0 5px;
+}
+h6 {
+    color: #fff;
+    font-size: 14px;
+    margin: 10px 0;
+}
+p {
+    color: #fff;
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.w-30 {
+    width: 30%;
+}
+.w-70 {
+    width: 70%;
+}
+.f-row {
+    display: flex;
+}
+#banner-bg {
+    background-image: url("../img/banner-bg.png");
+}
