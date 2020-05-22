@@ -67,11 +67,17 @@ a {
 }
 
 .w-100 {
-    width: 100;
+    width: 100%;
 }
+
+.w-80 {
+    width: 80%;
+}
+
 .w-45 {
     width: 45%;
 }
+
 .w-40 {
     width: 40%;
 }
@@ -125,8 +131,24 @@ a {
     justify-content: space-between;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
 .text-center {
     text-align: center;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.m-10 {
+    margin: 10px;
 }
 
 .m-r-5 {
@@ -152,9 +174,18 @@ a {
 .my-5 {
     margin: 10px 0;
 }
+
 .px-15 {
     padding: 0 15px;
-} 
+}
+
+.py-80 {
+    padding: 80px 0;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
 
 .content-p {
     padding: 80px 40px;
@@ -205,6 +236,14 @@ a {
     border-color: none;
 }
 
+.event-btn {
+    color: #121212;
+    background-color: #fff;
+    font-style: normal;
+    margin-right: 20px;
+
+}
+
 .icon-block {
     margin-top: 30px;
 }
@@ -223,6 +262,7 @@ a {
 .icon-bg i {
     color: #f4bc51;
 }
+
 .icon-bg-line {
     height: 140px;
     width: 140px;
@@ -233,27 +273,95 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 ul {
     padding: 0;
 }
+
 ul li {
     font-style: italic;
-    list-style-type:none;
+    list-style-type: none;
     color: #7a7a7a7a;
     font-size: 13px;
     margin: 0 0 10px;
 }
+
 .offer-text h2 {
     color: #121212;
     font-size: 32px;
     font-weight: 300;
     margin-bottom: 10px;
 }
+
 .offer-text h2 span {
     font-size: 32px;
     color: #b94e5e;
     font-weight: 700;
 }
+
 .offer-text p {
     color: #4a4a4a;
-} 
+}
+
+#events {
+    background-image: url("../img/events-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+button {
+    color: #121212;
+    width: 200px;
+    height: 70px;
+    margin: 2px 2px;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.event-table {
+    background-color: #fff;
+}
+
+.bg-grey-light {
+    background-color: #eee
+}
+
+.bg-grey-dark {
+    background-color: #ddd
+}
+
+.event-table li {
+    height: 105px;
+    margin: 0 0 5px;
+}
+
+.date-block {
+    width: 80px;
+    height: 80px;
+}
+
+.event-table h4 {
+    font-style: normal;
+    color: #121212;
+    margin: 0 0 4px;
+    font-style: normal;
+}
+
+.event-type-wc {
+    font-size: 13px;
+    color: #b94e5e;
+    font-style: normal;
+}
+.event-time {
+    color: #4a4a4a;
+    font-style: normal;
+}
+.date-block span {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+
+}
