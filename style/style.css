@@ -310,6 +310,19 @@ ul li {
     background-size: cover;
     width: 100%;
 }
+#testimonial-img {
+    background-image: url("../img/testimonial-left-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#testimonial-bg {
+    background-image: url("../img/testimonial-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 button {
     color: #121212;
@@ -355,13 +368,33 @@ button {
     color: #b94e5e;
     font-style: normal;
 }
+
 .event-time {
     color: #4a4a4a;
     font-style: normal;
 }
+
 .date-block span {
     font-size: 18px;
     font-weight: 700;
     font-style: normal;
+}
 
+.carosel-st span {
+    color: #b94e5e;
+    font-style: italic;
+} 
+
+.carosel-st h4 {
+    color: #121212;
+    margin: 10px 0;
+}
+.carosel-st p {
+    text-align: center;
+    margin: 10px 0;
+    color: #4a4a4a;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 28px;
+    width: 70%;
 }
