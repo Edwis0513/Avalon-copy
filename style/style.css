@@ -82,6 +82,10 @@ a {
     width: 40%;
 }
 
+.w-25 {
+    width: 25%;
+}
+
 .w-30 {
     width: 30%;
 }
@@ -110,6 +114,11 @@ a {
 .h-550 {
     height: 550px;
     min-height: 550px;
+}
+
+.h-350 {
+    height: 350px;
+    min-height: 350px;
 }
 
 .f-row {
@@ -195,12 +204,14 @@ a {
     background-image: url("../img/banner-bg.png");
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #best-offer-bg {
     background-image: url("../img/best-offer-bg.png");
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .line-dec {
@@ -310,6 +321,7 @@ ul li {
     background-size: cover;
     width: 100%;
 }
+
 #testimonial-img {
     background-image: url("../img/testimonial-left-image.png");
     background-position: center;
@@ -383,12 +395,13 @@ button {
 .carosel-st span {
     color: #b94e5e;
     font-style: italic;
-} 
+}
 
 .carosel-st h4 {
     color: #121212;
     margin: 10px 0;
 }
+
 .carosel-st p {
     text-align: center;
     margin: 10px 0;
@@ -397,4 +410,41 @@ button {
     font-style: italic;
     line-height: 28px;
     width: 70%;
+}
+
+.hover-text {
+    width: 90%;
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 140px;
+}
+
+
+.card-hov:hover .hover-text {
+    display: flex;
+}
+
+.card-hov:hover .hover-icons {
+    display: none;
+}
+
+#card1 {
+    background-color: rgba(244, 188, 81, 0.9);
+    position: relative;
+}
+
+#card2 {
+    background-color: rgba(243, 158, 75, 0.9);
+    position: relative;
+}
+
+#card3 {
+    background-color: rgba(185, 78, 94, 0.9);
+    position: relative;
+}
+
+#card4 {
+    background-color: rgba(232, 104, 89, 0.9);
+    position: relative;
 }
